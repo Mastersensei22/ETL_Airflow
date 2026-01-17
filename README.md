@@ -1,3 +1,6 @@
+Pipeline ETL Distribuido con Apache Airflow
+
+
 Este proyecto implementa un pipeline ETL (Extract, Transform, Load) distribuido utilizando Apache Airflow con CeleryExecutor, completamente containerizado mediante Docker Compose. El pipeline consume datos de ventas desde una API externa de e-commerce (Fake Store API), genera datos sintéticos para simular un mayor volumen de información y crecimiento del negocio, aplica transformaciones para análisis y persiste los datos procesados en un formato optimizado csv. 
 
 El objetivo principal del proyecto es demostrar cómo construir un pipeline de datos escalable y cercano a un entorno productivo, utilizando herramientas modernas de ingeniería de datos. 
