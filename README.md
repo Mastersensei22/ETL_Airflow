@@ -38,16 +38,19 @@ Tecnologías Utilizadas: Python, Apache Airflow, Docker & Docker Compose, Celery
 
 Estructura del proyecto.
 
-fake_store_airflow/
-│
-├── dags/
-│   └── fake_store_etl.py
-│
-├── data/
-│   └── outputs/
-│       ├── carts_raw.csv
-│       └── carts_transformed.parquet
-│
-├── docker-compose.yml
-├── requirements.txt
-└── README.md
+CARPETA: fake_store_airflow
+
+/dags
+/data/outputs
+/logs
+/plugis
+/config
+requirements.txt
+
+
+<img width="769" height="266" alt="image" src="https://github.com/user-attachments/assets/5b6b7d95-6e64-445c-9793-2fc50f954f18" />
+
+
+
+
+
